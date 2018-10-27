@@ -2,7 +2,7 @@
 def greeting(name = "Bobby\t   ")
 
 
-  puts "Hello #{name}. It's nice to meet you."
+  puts "Hello #{name.gets.strip}. It's nice to meet you."
 
 
 
